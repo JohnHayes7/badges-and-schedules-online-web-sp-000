@@ -24,6 +24,6 @@ def assign_rooms(name_array)
     message = "Hello #{name}!  You'll be assigned to room #{room_numbers[i]}"
     message_array << message
     i += 1
-    return message
+    return message_array
   end
 end
