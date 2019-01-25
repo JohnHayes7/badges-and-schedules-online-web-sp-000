@@ -30,6 +30,6 @@ end
 
 def printer(attendees)
   attendees.each_with_index do |name, index|
-   puts batch_badge_creator()
+   puts batch_badge_creator(attendees[index])
  end
 end
