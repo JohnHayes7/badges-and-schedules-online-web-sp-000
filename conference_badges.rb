@@ -19,8 +19,10 @@ def assign_rooms(name_array)
     room_numbers << index
   end
   i=0
+  message_array = []
   name_array.each do |name|
     message = "Hello #{name}!  You'll be assigned to room #{room_numbers[i]}"
+    message_array << message
     i += 1
     return message
   end
