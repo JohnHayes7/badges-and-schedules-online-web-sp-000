@@ -15,7 +15,9 @@ end
 def assign_rooms(name_array)
   room_numbers = []
   name_array.each_with_index do |name, index|
+    index += 1
     room_numbers << index
   end
-  return room_numbers
+  name_array.each do |name|
+    puts
 end
