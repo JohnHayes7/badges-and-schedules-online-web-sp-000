@@ -20,6 +20,6 @@ def assign_rooms(name_array)
   end
   name_array.each do |name|
     message = "Hello #{name}!  You'll be assigned to room #{room_numbers}"
+    return message
   end
-  return message
 end
