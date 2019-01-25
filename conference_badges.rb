@@ -18,7 +18,8 @@ def assign_rooms(name_array)
     index += 1
     room_numbers << index
   end
+  
   name_array.each do |name|
-    puts "Hello #{name}!  You'll be assigned to room #{room_numbers[index]}"
+    puts "Hello #{name}!  You'll be assigned to room #{room_numbers}"
   end
 end
